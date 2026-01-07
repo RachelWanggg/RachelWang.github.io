@@ -10,3 +10,25 @@ shaped-image {
     height: 200px;
     border-radius: 50%;
 }
+
+header {
+    display: flex; /* Makes the header a flex container */
+    justify-content: space-between; /* Pushes content to the left and right edges */
+    align-items: center; /* Vertically centers the items in the header */
+    padding: 10px 20px; /* Add some padding for spacing */
+    background-color: #f1f1f1; /* Example background color */
+}
+
+ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default left padding */
+    margin: 0; /* Removes default margins */
+    display: flex; /* Makes the ul a flex container, putting li in a row */
+    gap: 20px; /* Adds space between list items */
+}
+
+/* Optional: style the list items or links */
+li a {
+    text-decoration: none; /* Removes underlines from links */
+    color: #333;
+}
