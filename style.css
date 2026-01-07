@@ -29,3 +29,25 @@ p {
 #footer a:hover {
     color: #b8730e;
 }
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333333;
+}
+
+.nav-link {
+    color: #000000 !important;
+}
+
+.nav-link:hover {
+    color: #333333 !important;
+}
+
+.arch-image{
+    object-fit: cover;
+     border-radius: 150px 150px 0 0;
+}
