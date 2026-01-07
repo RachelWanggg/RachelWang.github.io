@@ -1,34 +1,31 @@
-image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-shaped-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+h1 {
+    color: #d78b10;
+    text-align: center;
 }
 
-header {
-    display: flex; /* Makes the header a flex container */
-    justify-content: space-between; /* Pushes content to the left and right edges */
-    align-items: center; /* Vertically centers the items in the header */
-    padding: 10px 20px; /* Add some padding for spacing */
-    background-color: #f1f1f1; /* Example background color */
+p {
+    color: #666;
 }
 
-ul {
-    list-style-type: none; /* Removes bullet points */
-    padding: 0; /* Removes default left padding */
-    margin: 0; /* Removes default margins */
-    display: flex; /* Makes the ul a flex container, putting li in a row */
-    gap: 20px; /* Adds space between list items */
+#footer {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
 }
 
-/* Optional: style the list items or links */
-li a {
-    text-decoration: none; /* Removes underlines from links */
-    color: #333;
+#footer a {
+    margin: 0 10px;
+    color: #d78b10;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #b8730e;
 }
