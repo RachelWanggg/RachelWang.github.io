@@ -16,7 +16,7 @@ h1 {
 }
 
 p {
-    color: #666;
+    color: #0b0b0b;
 }
 
 #footer {
@@ -55,4 +55,7 @@ a:hover {
 .arch-image{
     object-fit: cover;
     border-radius: 150px 150px 0 0;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
 }
